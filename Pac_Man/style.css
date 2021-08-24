@@ -1,0 +1,740 @@
+body{
+	background-color: black;
+    overflow: hidden;
+}
+
+.img{
+	width: 100px;
+	position: absolute;
+	top: 250px;
+	left: 270px;
+}
+
+#img{
+	width: 45px;
+	position: absolute;
+	top: 115px;
+	left: 485px;
+}
+
+#enemy{
+	width: 0px;
+	position: absolute;
+	top: 270px;
+	left: 510px;
+	
+}
+
+#enemy2{
+	width: 70px;
+	position: absolute;
+	top: 270px;
+	left: 580px;
+}
+
+#enemy3{
+	width: 70px;
+	position: absolute;
+	top: 270px;
+	left: 650px;
+}
+
+#enemy4{
+	width: 70px;
+	position: absolute;
+	top: 270px;
+	left: 720px;
+}
+
+#dynamic1{
+	width: 40px;
+    height:40px;
+	position: absolute;
+    background-image: url("images/pacman.png");
+    top:647px;
+    left:125px;
+    background-size: 40px 40px;
+
+	
+}
+
+#floor{
+	width: 1000px;
+	position: relative;
+	top: 50px;
+}
+
+.enemy1{
+	width: 40px;
+    height:40px;
+	position: absolute;
+    background-image: url("images/enemy.png");
+	left: 417px;
+	top: 455px;
+    background-size: 40px 40px;
+
+}
+
+.enemy2{
+	width: 40px;
+    height:40px;
+	position: absolute;
+    background-image: url("images/enemy3.png");
+	left: 475px;
+	top: 455px;
+    background-size: 40px 40px;
+
+}
+
+.enemy3{
+	width: 40px;
+    height:40px;
+	position: absolute;
+    background-image: url("images/enemy.png");
+	left: 540px;
+	top: 455px;
+    background-size: 40px 40px;
+}
+
+#mainwal
+{
+    position: absolute;
+    width : 1020px;
+    height : 1020px;
+    background-image :url("images/level.png");
+    top: 95px;
+	background-repeat: no-repeat;
+	background-size: 1020px 1020px;
+	margin: 0 auto;
+}
+
+.woll1
+{
+	display: inline-block;
+	position: absolute;
+    width : 99px;
+    height : 54px;
+    background-color: red;
+    top: 101px;
+	left:109px;
+}
+
+.woll2
+{
+	display: inline-block;
+	position: absolute;
+    width : 99px;
+    height : 54px;
+    background-color: red;
+    top: 101px;
+	left:813px;
+}
+
+.woll3
+{
+	display: inline-block;
+	position: absolute;
+    width : 131px;
+    height : 54px;
+    background-color: red;
+    top: 101px;
+	left:286px;
+}
+
+.woll4
+{
+	display: inline-block;
+	position: absolute;
+    width : 133px;
+    height : 54px;
+    background-color: red;
+    top: 101px;
+	left:602px;
+}
+
+.woll5
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 62px;
+    background-color: red;
+    top: 31px;
+	left:495px;
+}
+
+.woll6
+{
+	display: inline-block;
+	position: absolute;
+    width : 98px;
+    height : 23px;
+    background-color: red;
+    top: 229px;
+	left:110px;
+}
+
+.woll7
+{
+	display: inline-block;
+	position: absolute;
+    width : 96px;
+    height : 23px;
+    background-color: red;
+    top: 419px;
+	left:111px;
+}
+
+.woll8
+{
+	display: inline-block;
+	position: absolute;
+    width : 98px;
+    height : 23px;
+    background-color: red;
+    top: 515px;
+	left:110px;
+}
+
+.woll9
+{
+	display: inline-block;
+	position: absolute;
+    width : 98px;
+    height : 24px;
+    background-color: red;
+    top: 896px;
+	left:110px;
+}
+.woll10
+{
+	display: inline-block;
+	position: absolute;
+    width : 98px;
+    height : 23px;
+    background-color: red;
+    top: 705px;
+	left:110px;
+}
+
+.woll11
+{
+	display: inline-block;
+	position: absolute;
+    width : 26px;
+    height : 92px;
+    background-color: red;
+    top: 325px;
+	left:180px;
+}
+
+.woll12
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 92px;
+    background-color: red;
+    top: 540px;
+	left:180px;
+}
+
+.woll13
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 94px;
+    background-color: red;
+    top: 730px;
+	left:180px;
+}
+
+.woll14
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 92px;
+    background-color: red;
+    top: 228px;
+	left:286px;
+}
+
+.woll15
+{
+	display: inline-block;
+	position: absolute;
+    width : 131px;
+    height : 23px;
+    background-color: red;
+    top: 323px;
+	left:286px;
+}
+
+.woll16
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 215px;
+    background-color: red;
+    top: 418px;
+	left:286px;
+}
+
+.woll17
+{
+	display: inline-block;
+	position: absolute;
+    width : 131px;
+    height : 23px;
+    background-color: red;
+    top: 705px;
+	left:286px;
+}
+
+.woll18
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 92px;
+    background-color: red;
+    top: 801px;
+	left:286px;
+}
+
+.woll19
+{
+	display: inline-block;
+	position: absolute;
+    width : 131px;
+    height : 23px;
+    background-color: red;
+    top: 897px;
+	left:286px;
+}
+
+.woll20
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 183px;
+    background-color: red;
+    top: 163px;
+	left:497px;
+}
+
+.woll21
+{
+	display: inline-block;
+	position: absolute;
+    width : 103px;
+    height : 23px;
+    background-color: red;
+    top: 227px;
+	left:392px;
+}
+
+.woll22
+{
+	display: inline-block;
+	position: absolute;
+    width : 103px;
+    height : 23px;
+    background-color: red;
+    top: 227px;
+	left:527px;
+}
+
+.woll23
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 214px;
+    background-color: red;
+    top: 705px;
+	left:497px;
+}
+
+.woll24
+{
+	display: inline-block;
+	position: absolute;
+    width : 103px;
+    height : 23px;
+    background-color: red;
+    top: 800px;
+	left:392px;
+}
+
+.woll25
+{
+	display: inline-block;
+	position: absolute;
+    width : 103px;
+    height : 23px;
+    background-color: red;
+    top: 801px;
+	left:527px;
+}
+
+.woll26
+{
+	display: inline-block;
+	position: absolute;
+    width : 238px;
+    height : 23px;
+    background-color: red;
+    top: 610px;
+	left:392px;
+}
+
+.woll27
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 215px;
+    background-color: red;
+    top: 418px;
+	left:709px;
+}
+
+.woll28
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 92px;
+    background-color: red;
+    top: 227px;
+	left:709px;
+}
+
+.woll29
+{
+	display: inline-block;
+	position: absolute;
+    width : 131px;
+    height : 23px;
+    background-color: red;
+    top: 321px;
+	left:603px;
+}
+
+.woll30
+{
+	display: inline-block;
+	position: absolute;
+    width : 131px;
+    height : 23px;
+    background-color: red;
+    top: 705px;
+	left:604px;
+}
+
+.woll31
+{
+	display: inline-block;
+	position: absolute;
+    width : 131px;
+    height : 23px;
+    background-color: red;
+    top: 897px;
+	left:604px;
+}
+
+.woll32
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 92px;
+    background-color: red;
+    top: 801px;
+	left:707px;
+}
+
+.woll33
+{
+	display: inline-block;
+	position: absolute;
+    width : 26px;
+    height : 92px;
+    background-color: red;
+    top: 325px;
+	left:815px;
+}
+
+.woll34
+{
+	display: inline-block;
+	position: absolute;
+    width : 96px;
+    height : 23px;
+    background-color: red;
+    top: 419px;
+	left:815px;
+}
+
+.woll35
+{
+	display: inline-block;
+	position: absolute;
+    width : 98px;
+    height : 23px;
+    background-color: red;
+    top: 229px;
+	left:815px;
+}
+
+.woll36
+{
+	display: inline-block;
+	position: absolute;
+    width : 98px;
+    height : 23px;
+    background-color: red;
+    top: 515px;
+	left:815px;
+}
+
+.woll37
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 92px;
+    background-color: red;
+    top: 540px;
+	left:815px;
+}
+
+.woll38
+{
+	display: inline-block;
+	position: absolute;
+    width : 98px;
+    height : 23px;
+    background-color: red;
+    top: 705px;
+	left:815px;
+}
+
+.woll39
+{
+	display: inline-block;
+	position: absolute;
+    width : 28px;
+    height : 94px;
+    background-color: red;
+    top: 730px;
+	left:815px;
+}
+
+.woll40
+{
+	display: inline-block;
+	position: absolute;
+    width : 98px;
+    height : 23px;
+    background-color: red;
+    top: 896px;
+	left:815px;
+}
+
+.woll41
+{
+	display: inline-block;
+	position: absolute;
+    width : 62px;
+    height : 28px;
+    background-color: red;
+    top: 495px;
+	left:31px;
+}
+
+.woll41
+{
+	display: inline-block;
+	position: absolute;
+    width : 67px;
+    height : 23px;
+    background-color: red;
+    top: 609px;
+	left:34px;
+}
+
+.woll42
+{
+	display: inline-block;
+	position: absolute;
+    width : 67px;
+    height : 23px;
+    background-color: red;
+    top: 323px;
+	left:34px;
+}
+
+.woll43
+{
+	display: inline-block;
+	position: absolute;
+    width : 67px;
+    height : 23px;
+    background-color: red;
+    top: 800px;
+	left:34px;
+}
+
+.woll44
+{
+	display: inline-block;
+	position: absolute;
+    width : 67px;
+    height : 23px;
+    background-color: red;
+    top: 800px;
+	left:920px;
+}
+
+.woll45
+{
+	display: inline-block;
+	position: absolute;
+    width : 67px;
+    height : 23px;
+    background-color: red;
+    top: 323px;
+	left:920px;
+}
+
+.woll46
+{
+	display: inline-block;
+	position: absolute;
+    width : 67px;
+    height : 23px;
+    background-color: red;
+    top: 609px;
+	left:920px;
+}
+
+.woll47
+{
+	display: inline-block;
+	position: absolute;
+    width : 952px;
+    height : 10px;
+    background-color: red;
+    top: 18px;
+	left:34px;
+}
+
+.woll48
+{
+	display: inline-block;
+	position: absolute;
+    width : 952px;
+    height : 10px;
+    background-color: red;
+    top: 992px;
+	left:34px;
+}
+
+.woll49
+{
+	display: inline-block;
+	position: absolute;
+    width : 11px;
+    height : 998px;
+    background-color: red;
+    top: 19px;
+	left:21px;
+}
+
+.woll50
+{
+	display: inline-block;
+	position: absolute;
+    width : 11px;
+    height : 998px;
+    background-color: red;
+    top: 19px;
+	left:989px;
+}
+
+.woll51
+{
+	display: inline-block;
+	position: absolute;
+    width : 11px;
+    height : 100px;
+    background-color: red;
+    top: 427px;
+	left:392px;
+}
+
+.woll52
+{
+	display: inline-block;
+	position: absolute;
+    width : 11px;
+    height : 100px;
+    background-color: red;
+    top: 427px;
+	left:620px;
+}
+
+.woll53
+{
+	display: inline-block;
+	position: absolute;
+    width : 70px;
+    height : 11px;
+    background-color: red;
+    top: 415px;
+	left:560px;
+}
+
+.woll54
+{
+	display: inline-block;
+	position: absolute;
+    width : 70px;
+    height : 11px;
+    background-color: red;
+    top: 415px;
+	left:390px;
+}
+
+.woll55
+{
+	display: inline-block;
+	position: absolute;
+    width : 239px;
+    height : 11px;
+    background-color: red;
+    top: 529px;
+	left:392px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
